@@ -1,3 +1,5 @@
+import Users from "./components/Users/Users";
+import UserForm from "./components/UserForm/UserForm";
 import './App';
 
 const App = () => {
@@ -5,7 +7,7 @@ const App = () => {
   return (
     <>
       <main className="container-fluid">
-        <div className="row mt-4">
+        <div className="row">
           <div className="col-6">
             <UserForm/>
           </div>
