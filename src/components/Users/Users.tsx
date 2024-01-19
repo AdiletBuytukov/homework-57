@@ -1,11 +1,5 @@
 import React from 'react';
 
-interface User {
-  name: string;
-  email: string;
-  isActive: boolean;
-  role: string;
-}
 
 interface UsersProps {
   users: User[]

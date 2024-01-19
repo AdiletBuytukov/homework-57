@@ -1,16 +1,6 @@
 import React, { useState } from 'react';
 import { ROLES } from "../../constants";
 
-interface User {
-  name: string;
-  email: string;
-  isActive: boolean;
-  role: string;
-}
-
-interface UserFormProps {
-  addUser: (user: User) => void;
-}
 
 const UserForm: React.FC<UserFormProps> = ({ addUser }) => {
   const [user, setUser] = useState({

@@ -1,15 +1,9 @@
 import React, {useState} from 'react';
 import Users from "./components/Users/Users";
 import UserForm from "./components/UserForm/UserForm";
-
 import './App.css';
 
-interface User {
-  name: string;
-  email: string;
-  isActive: boolean;
-  role: string;
-}
+
 
 const App: React.FC = () => {
   const [users, setUsers] = useState<User[]>([]);
